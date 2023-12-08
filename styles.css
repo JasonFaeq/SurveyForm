@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: transparent;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(4px);
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#title {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+#survey-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: rgb(100, 17, 17, 0.5);
+  border-radius: 10px;
+  max-width: 50%;
+  min-width: 50%;
+  padding: 25px;
+}
+
+.textabove {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.inputbox {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+#dropdown {
+  height: 40px;
+}
+
+.decade {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#e80s {
+  margin-top: 10px;
+}
+
+.decade label {
+  display: block;
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+#gta6 {
+  margin-top: 30px;
+}
+.upcominggame label {
+  display: block;
+  margin-top: -30px;
+  font-size: 15px;
+}
+
+#comments {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.somespace {
+  margin-top: 50px;
+}

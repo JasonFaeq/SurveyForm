@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gaming Survey</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="title">Gamer's Survey Form</h1>
+      <p id="description">We'll send you information about your perferences!</p>
+    </div>
+    <form id="survey-form">
+      <div class="name">
+        <h2 class="textabove">Name</h2>
+        <label for="name" id="name-label"><input class="inputbox" required id="name" type="text" placeholder="Enter your name"></label>
+      </div>
+      <div class="email">
+        <h2 class="textabove">Email</h2>
+        <label for="email" id="email-label"><input id="email" class="inputbox" required ="email" type="email" placeholder="Enter your Email"></label>
+      </div>
+      <div class="age">
+        <h2 class="textabove">Age (optional)</h2>
+        <label for="number" id="number-label"><input class="inputbox" required id="number" type="number" min="10" max="70" placeholder="Age"></label>
+      </div>
+      <div class="gamesgenre">
+        <h2 class="textabove">What genre of games do you like?</h2>
+        <select class="inputbox" id="dropdown">
+          <option value="Select">Select a game genre</option>
+          <option value="Action Games">Action Games</option>
+          <option value="Adventure Games">Adventure Games</option>
+          <option value="Horror Games">Horror Games</option>
+          <option value="Sports Games">Sports Games</option>
+        </select>
+      </div>
+      <div class="decade">
+        <h2 class="textabove">Do you game often?</h2>
+        <label><input type="radio" value="decade" name="decade" id="e80s"> Always</label><br>
+        <label><input type="radio" value="decade" name="decade"> Sometimes</label><br>
+        <label><input type="radio" value="decade" name="decade"> Never</label><br>
+      </div>
+      <div class="upcominggame">
+        <h2 class="textabove">What game are you most looking forward to?</h2>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame" id="gta6"> Grand Theft Auto 6</label><br>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame"> Portal 3</label><br>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame"> Halo 5</label><br>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame"> Death Stranding 2</label><br>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame"> Silent Hills</label><br>
+        <label class="textabove"><input type="checkbox" value="whatgame" name="whatgame"> Dota 3</label><br>
+      </div>
+      <div class="comments">
+        <h2 class="textabove">Any comments or suggestions?</h2>
+        <textarea id="comments" name="comments" placeholder="Enter your comment here"></textarea>
+      </div>
+      <div class="submit">
+        <button id="submit">Submit</button>
+      </div>
+    </form>
+    <div class="somespace"></div>
+  </body>
+</html>
